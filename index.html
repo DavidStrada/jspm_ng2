@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NG-2 - JSPM</title>
+</head>
+<body>
+
+  <my-app>Loading ... </my-app>
+  
+
+  <script src="jspm_packages/system.js"></script>
+  <script src="jspm.config.js"></script>
+  <script>
+    // Check jspm.config.js path : { "app/": "src/" }
+    // You can use either app/ src/
+    System.import('app/app.ts');
+  </script>
+</body>
+</html>
